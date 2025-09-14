@@ -22,8 +22,8 @@ const Banner = () => {
           <img className="gradient-bg" src={gradient_bg} alt="gradient-bg" />
         </div>
 
-        <div className="banner-bottom hidden lg:flex items-center justify-between w-full z-50 absolute bottom-[-530px] text-[14px]">
-          <div className="banner-three-li flex items-center gap-3 font-medium">
+        <div className="banner-bottom hidden lg:flex items-center justify-between w-full z-50 absolute bottom-[-530px]">
+          <div className="banner-three-li flex items-center gap-2 font-medium">
             <h6>Framer</h6>
             <h6>Dribble</h6>
             <h6>Figma</h6>

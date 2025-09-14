@@ -1,5 +1,6 @@
 import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
+import WhereBloom from "./components/home/whereBloom/WhereBloom";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
         <Navbar></Navbar>
         <Banner></Banner>
       </div>
+      <WhereBloom></WhereBloom>
     </section>
   );
 };

@@ -101,13 +101,63 @@
   padding: 0 16px;
 }
 .banner-container .banner-content .banner-bottom .banner-three-li h6 {
-  /* border border-[#747897] rounded-[100px] py-[8px] px-[10px] */
   border: 1px solid #747897;
   border-radius: 100px;
   padding: 7px 10px;
   transition: all linear 0.3s;
   cursor: pointer;
+  color: #37414a;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.14px;
 }
 .banner-container .banner-content .banner-bottom .banner-three-li h6:hover {
   scale: 1.1;
+}
+
+/* where-bloom-container css start */
+.where-bloom-container {
+  background: #2e353b;
+  border-radius: 16px;
+  padding: 148px 190px;
+}
+.where-bloom-container .where-bloom-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.where-bloom-container .where-bloom-content h2 {
+  color: #cfd1da;
+  text-align: left;
+  align-items: start;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.where-bloom-container .where-bloom-content h2 span {
+  color: #686a78;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+/* marquee */
+.marquee-container h4 {
+  color: #686a78;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 14.961px;
+  letter-spacing: -0.96px;
+}
+.marquee-container {
+  overflow: hidden !important;
+  scrollbar-width: none; /* Firefox */
+}
+
+.marquee-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
