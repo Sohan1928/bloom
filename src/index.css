@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:opsz,wght@14..32,100..900&display=swap");
 @import "tailwindcss";
 
 /* google fonts */
 #font-inter {
   font-family: "Inter", sans-serif;
 }
-
+#font-antonio {
+  font-family: "Antonio", sans-serif;
+}
 /* -------------------- */
 * {
   padding: 0;
@@ -36,5 +38,76 @@
   transition: all linear 0.3s;
 }
 .nav-content .humburger-menu:hover {
+  scale: 1.1;
+}
+/* banner css */
+.banner-container {
+  padding: 0 8px;
+  height: 1070px;
+}
+/* .banner-container .banner-content {
+  padding: 20px;
+} */
+.banner-container .banner-content h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 350px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #3c464e;
+  text-transform: uppercase;
+}
+.banner-container .banner-content .studio {
+  color: #2e353b;
+  font-size: 38px;
+  line-height: 43.056px;
+  letter-spacing: -1.14px;
+  position: absolute;
+  bottom: 30px;
+  left: 180px;
+}
+.banner-container .banner-content .banner-p {
+  width: 140px;
+  color: #2e353b;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.14px;
+  position: absolute;
+  bottom: 30px;
+  right: 184px;
+}
+.banner-container .banner-content .banner-img {
+  width: 729.191px;
+  height: 842.27px;
+  position: absolute;
+  top: 227px;
+  pointer-events: none;
+  z-index: 999;
+}
+.banner-container .banner-content .gradient-bg {
+  /* width: 907.124px; */
+  width: 100%;
+  height: 873.865px;
+  z-index: 0;
+  position: absolute;
+  top: 195px;
+  pointer-events: none;
+}
+.banner-container .banner-content .banner-bottom {
+  padding: 0 16px;
+}
+.banner-container .banner-content .banner-bottom .banner-three-li h6 {
+  /* border border-[#747897] rounded-[100px] py-[8px] px-[10px] */
+  border: 1px solid #747897;
+  border-radius: 100px;
+  padding: 7px 10px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.banner-container .banner-content .banner-bottom .banner-three-li h6:hover {
   scale: 1.1;
 }
