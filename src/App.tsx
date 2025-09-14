@@ -1,5 +1,6 @@
 import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
+import SelectedWorks from "./components/home/selectedWorks/SelectedWorks";
 import WhereBloom from "./components/home/whereBloom/WhereBloom";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Banner></Banner>
       </div>
       <WhereBloom></WhereBloom>
+      <SelectedWorks></SelectedWorks>
     </section>
   );
 };

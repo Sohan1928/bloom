@@ -8,16 +8,19 @@ const Banner = () => {
     <section className="banner-container">
       <div className="relative banner-content">
         <div className="relative flex flex-col justify-center items-center">
-          <h1 id="font-antonio">Bloom</h1>
-          <div className="hidden lg:block">
-            <h5 id="font-antonio" className="flex items-start studio">
-              Studio
-              <span className="text-[1rem] relative top-[-0.1em]">
-                <AiOutlineTrademark />
-              </span>
-            </h5>
-            <h5 className="banner-p">Creative agency Based in Gotham</h5>
+          <div className="relative">
+            <h1 id="font-antonio">Bloom</h1>
+            <div className="hidden lg:block">
+              <h5 id="font-antonio" className="flex items-start studio">
+                Studio
+                <span className="text-[1rem] relative top-[-0.1em]">
+                  <AiOutlineTrademark />
+                </span>
+              </h5>
+              <h5 className="banner-p">Creative agency Based in Gotham</h5>
+            </div>
           </div>
+
           <img className="banner-img" src={banner_man} alt="banner_man.png" />
           <img className="gradient-bg" src={gradient_bg} alt="gradient-bg" />
         </div>
