@@ -1,1 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
 @import "tailwindcss";
+
+/* google fonts */
+#font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* -------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 8px;
+}
+/* navbar css */
+.nav-container {
+  padding: 8px;
+}
+.nav-container .nav-content {
+  background: #fff;
+  display: flex;
+  height: 80px;
+  padding: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.nav-content .humburger-menu {
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.nav-content .humburger-menu:hover {
+  scale: 1.1;
+}
