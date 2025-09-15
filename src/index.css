@@ -254,3 +254,80 @@
   line-height: 18px;
   letter-spacing: -0.14px;
 }
+/* services container css start */
+.services-container {
+  border-radius: 16px;
+  background: #2e353b;
+  padding: 56px 16px 16px 16px;
+  margin-top: 8px;
+}
+.services-container .title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services-container .title-content .subtitle {
+  color: #cfd1da;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.14px;
+  border-radius: 100px;
+  border: 1px solid #686a78;
+  background: #2e353b;
+  height: 34px;
+  padding: 8px 12px;
+  transition: all linear 0.3s;
+}
+.services-container .subtitle:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.services-container .title-content .title {
+  max-width: 350px;
+  color: #cfd1da;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  margin-top: 8px;
+}
+.services-container .branding-content {
+  padding: 40px 16px 16px 16px;
+  margin: auto;
+}
+.services-container .branding-content .branding-box {
+  display: flex;
+  height: 183.55px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  aspect-ratio: 169/110;
+  border-radius: 12px;
+  background: #353c43;
+}
+.services-container .branding-content .branding-box h4 {
+  color: #cfd1da;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.52px;
+  opacity: 0.6;
+  transition: all linear 0.3s;
+}
+.services-container .branding-content .branding-box h4:hover {
+  scale: 1.07;
+}
+.services-container .branding-content .available-box {
+  height: 183.55px;
+  flex: 1 0 0;
+  aspect-ratio: 169/110;
+  border-radius: 12px;
+  opacity: 0.3;
+  background: #37414a;
+}

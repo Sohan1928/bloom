@@ -1,6 +1,7 @@
 import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
 import SelectedWorks from "./components/home/selectedWorks/SelectedWorks";
+import Services from "./components/home/services/Services";
 import WhereBloom from "./components/home/whereBloom/WhereBloom";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       </div>
       <WhereBloom></WhereBloom>
       <SelectedWorks></SelectedWorks>
+      <Services></Services>
     </section>
   );
 };
