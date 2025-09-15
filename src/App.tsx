@@ -2,6 +2,7 @@ import Banner from "./components/home/banner/Banner";
 import Navbar from "./components/home/navbar/Navbar";
 import SelectedWorks from "./components/home/selectedWorks/SelectedWorks";
 import Services from "./components/home/services/Services";
+import Video from "./components/home/video/Video";
 import WhereBloom from "./components/home/whereBloom/WhereBloom";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <WhereBloom></WhereBloom>
       <SelectedWorks></SelectedWorks>
       <Services></Services>
+      <Video></Video>
     </section>
   );
 };
