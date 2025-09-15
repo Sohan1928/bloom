@@ -4,6 +4,7 @@ import SelectedWorks from "./components/home/selectedWorks/SelectedWorks";
 import Services from "./components/home/services/Services";
 import Video from "./components/home/video/Video";
 import WhereBloom from "./components/home/whereBloom/WhereBloom";
+import WorkingWithBloom from "./components/home/workingWithBloom/WorkingWithBloom";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <SelectedWorks></SelectedWorks>
       <Services></Services>
       <Video></Video>
+      <WorkingWithBloom></WorkingWithBloom>
     </section>
   );
 };
