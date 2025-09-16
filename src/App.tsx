@@ -1,4 +1,5 @@
 import Banner from "./components/home/banner/Banner";
+import Blog from "./components/home/blog/Blog";
 import FlexiblePlans from "./components/home/flexiblePlans/FlexiblePlans";
 import Location from "./components/home/locations/Location";
 import Navbar from "./components/home/navbar/Navbar";
@@ -22,6 +23,7 @@ const App = () => {
       <WorkingWithBloom></WorkingWithBloom>
       <Location></Location>
       <FlexiblePlans></FlexiblePlans>
+      <Blog></Blog>
     </section>
   );
 };
