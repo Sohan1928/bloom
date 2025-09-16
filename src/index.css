@@ -663,3 +663,51 @@
   line-height: 22px;
   letter-spacing: -0.128px;
 }
+
+.blog-container .cart-section .fisrt-cart {
+  background: #fff;
+  padding: 8px;
+  border-radius: 12px;
+  transition: all linear 0.3s;
+}
+.blog-container .cart-section .fisrt-cart:hover {
+  background: #e9e9e9;
+}
+.blog-container .cart-section .fisrt-cart img {
+  flex: 1 0 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 592.5px;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  aspect-ratio: 580/592.5;
+  background-size: cover;
+  transition: all linear 0.3s;
+}
+.blog-container .cart-section .fisrt-cart img:hover {
+  scale: 1.01;
+}
+.blog-container .cart-section .fisrt-cart .first-cart-bottom {
+  padding-top: 14px;
+}
+.blog-container .cart-section .fisrt-cart .first-cart-bottom h6 {
+  align-self: stretch;
+  color: #747897;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.14px;
+}
+.blog-container .cart-section .fisrt-cart .first-cart-bottom p {
+  max-width: 300px;
+  align-self: stretch;
+  color: #2e353b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.18px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
