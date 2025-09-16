@@ -13,14 +13,14 @@ const SelectedWorks = () => {
   return (
     <section className="selected-works-container">
       <div className="selected-works-content lg:grid grid-cols-2 gap-2">
-        <div className="selected-works">
+        <div className="bliss selected-works">
           <h3>Selected Works</h3>
           <p>
             We don’t do pretty-for-the-sake-of-pretty. Every color, word, and
             pixel comes from a clear strategy built to help you grow.
           </p>
         </div>
-        <div className="bliss relative">
+        <div className="bliss bliss1 relative">
           <img className="rounded-[12px]" src={bliss} alt="Bliss.png" />
           <div className="bliss-icon absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-[4px]">
             <BlissIconSvg></BlissIconSvg>
@@ -31,7 +31,7 @@ const SelectedWorks = () => {
             <span>(2025)</span>
           </div>
         </div>
-        <div className="bliss relative">
+        <div className="bliss bliss1 relative">
           <img
             className="bg-cover bg-no-repeat rounded-[12px]"
             src={flea}
@@ -46,7 +46,7 @@ const SelectedWorks = () => {
             <span>(2025)</span>
           </div>
         </div>
-        <div className="bliss relative">
+        <div className="bliss bliss1 relative">
           <img
             className="bg-cover bg-no-repeat rounded-[12px]"
             src={coral}
@@ -61,7 +61,7 @@ const SelectedWorks = () => {
             <span>(2025)</span>
           </div>
         </div>
-        <div className="bliss relative">
+        <div className="bliss bliss1 relative">
           <img
             className="bg-cover bg-no-repeat rounded-[12px]"
             src={winkk}
@@ -76,7 +76,7 @@ const SelectedWorks = () => {
             <span>(2024)</span>
           </div>
         </div>
-        <div className="bliss relative">
+        <div className="bliss bliss1 relative">
           <img
             className="bg-cover bg-no-repeat rounded-[12px]"
             src={polltree}
