@@ -1,8 +1,8 @@
 const FooterBgSvg = () => {
   return (
     <svg
-      width={1160}
-      height={851}
+      // width={1160}
+      // height={851}
       viewBox="0 0 1160 851"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
