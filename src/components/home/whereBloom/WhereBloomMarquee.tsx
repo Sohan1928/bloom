@@ -7,7 +7,7 @@ const WhereBloomMarquee = () => {
   return (
     <Marquee
       gradient={true}
-      gradientWidth={150}
+      gradientWidth={120}
       gradientColor="#2e353b"
       pauseOnHover={true}
     >

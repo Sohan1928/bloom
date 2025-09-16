@@ -48,7 +48,7 @@
   scale: 1.1;
 }
 
-/* @media query */
+/* navbar @media query */
 @media (min-width: 320px) {
   .nav-container .navbar-logo {
     width: 30px;
@@ -170,7 +170,7 @@
   scale: 1.1;
 }
 
-/* @media query */
+/* banner @media query */
 @media (min-width: 320px) {
   .banner-container {
     padding: 0 8px;
@@ -289,6 +289,76 @@
 
 .marquee-container::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
+}
+/* where bloom @media query */
+@media (min-width: 320px) {
+  .where-bloom-container {
+    background: #2e353b;
+    border-radius: 16px;
+    padding: 56px 32px;
+    margin-top: 8px;
+  }
+  .where-bloom-container .where-bloom-content h2 {
+    color: #cfd1da;
+    text-align: left;
+    align-items: start;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.8px;
+  }
+  .where-bloom-container .where-bloom-content h2 span {
+    color: #686a78;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.8px;
+  }
+  .where-bloom-container .where-bloom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 310px;
+    height: 340px;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .where-bloom-container {
+    background: #2e353b;
+    border-radius: 16px;
+    padding: 148px 190px;
+  }
+  .where-bloom-container .where-bloom-content h2 {
+    color: #cfd1da;
+    text-align: left;
+    align-items: start;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+  }
+  .where-bloom-container .where-bloom-content h2 span {
+    color: #686a78;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+  }
+  .where-bloom-container .where-bloom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 870px;
+    height: 500px;
+    overflow-x: hidden;
+  }
 }
 
 /* selected-works-container css start */
