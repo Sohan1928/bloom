@@ -12,7 +12,7 @@ import WinkkIconSvg from "./svg/WinkkIconSvg";
 const SelectedWorks = () => {
   return (
     <section className="selected-works-container">
-      <div className="selected-works-content lg:grid grid-cols-2 gap-2">
+      <div className="selected-works-content grid lg:grid-cols-2 gap-2">
         <div className="bliss selected-works">
           <h3>Selected Works</h3>
           <p>
