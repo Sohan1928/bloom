@@ -711,3 +711,63 @@
   padding-top: 8px;
   padding-bottom: 12px;
 }
+/* faq section css start */
+.faq-container {
+  border-radius: 16px;
+  background: #f2f2f7;
+  margin-top: 8px;
+  padding: 8px;
+}
+.faq-container .faq-content {
+  border-radius: 12px;
+  background: #fff;
+  padding: 56px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  gap: 40px;
+  align-self: stretch;
+}
+.faq-container .faq-content h2 {
+  color: #2e353b;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.accordian-container {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.accordian-container .accordian-content {
+  padding: 16px 0;
+}
+.accordian-container .accordian-content .accordian-icon {
+  margin-left: 8px;
+  margin-right: 12px;
+}
+.accordian-container .accordian-content .accordian-answer {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 12px;
+  max-width: 400px;
+  align-self: stretch;
+  color: #747897;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.128px;
+}
+.accordian-container .accordian-content .accordian-question {
+  flex: 1 0 0;
+  color: #2e353b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.18px;
+}
