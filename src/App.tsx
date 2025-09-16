@@ -14,7 +14,7 @@ import WorkingWithBloom from "./components/home/workingWithBloom/WorkingWithBloo
 const App = () => {
   return (
     <section id="font-inter" className="bg-[#fff] main-container">
-      <div className="bg-[#F2F2F7]">
+      <div className="bg-[#F2F2F7] overflow-hidden">
         <Navbar></Navbar>
         <Banner></Banner>
       </div>

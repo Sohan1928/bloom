@@ -1,8 +1,8 @@
 const HumburgerMenuSvg = () => {
   return (
     <svg
-      width={69}
-      height={16}
+      // width={69}
+      // height={16}
       viewBox="0 0 69 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

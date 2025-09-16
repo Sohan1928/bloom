@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <section className="nav-container">
       <div className="nav-content">
-        <div>
+        <div className="navbar-logo">
           <LogoSvg></LogoSvg>
         </div>
         <div className="humburger-menu">

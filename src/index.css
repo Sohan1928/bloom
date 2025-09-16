@@ -17,10 +17,15 @@
 
 .main-container {
   padding: 8px;
+  overflow-x: hidden;
 }
 /* navbar css */
 .nav-container {
   padding: 8px;
+}
+.nav-container .navbar-logo {
+  width: 36px;
+  height: 36px;
 }
 .nav-container .nav-content {
   background: #fff;
@@ -36,10 +41,62 @@
 .nav-content .humburger-menu {
   cursor: pointer;
   transition: all linear 0.3s;
+  width: 69px;
+  height: 16px;
 }
 .nav-content .humburger-menu:hover {
   scale: 1.1;
 }
+
+/* @media query */
+@media (min-width: 320px) {
+  .nav-container .navbar-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .nav-content .humburger-menu {
+    cursor: pointer;
+    transition: all linear 0.3s;
+    width: 49px;
+    height: 12px;
+  }
+  .nav-container .nav-content {
+    display: flex;
+    height: 56px;
+    padding: 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .nav-container .navbar-logo {
+    width: 36px;
+    height: 36px;
+  }
+  .nav-container .nav-content {
+    background: #fff;
+    display: flex;
+    height: 80px;
+    padding: 0 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 12px;
+  }
+  .nav-content .humburger-menu {
+    cursor: pointer;
+    transition: all linear 0.3s;
+    width: 69px;
+    height: 16px;
+  }
+  .nav-content .humburger-menu:hover {
+    scale: 1.1;
+  }
+}
+
 /* banner css */
 .banner-container {
   padding: 0 8px;
