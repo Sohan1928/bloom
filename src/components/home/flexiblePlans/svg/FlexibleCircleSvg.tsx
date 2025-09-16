@@ -1,8 +1,8 @@
 const FlexibleCircleSvg = () => {
   return (
     <svg
-      width={685}
-      height={696}
+      // width={685}
+      // height={696}
       viewBox="0 0 685 696"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

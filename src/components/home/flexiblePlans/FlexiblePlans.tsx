@@ -24,12 +24,13 @@ const FlexiblePlans = () => {
             <ToggleSvg></ToggleSvg>
           </div>
         </div>
-        <div className="absolute -top-2 -left-2 overflow-hidden pointer-events-none rounded-tl-[16px] z-0">
+        <div className="absolute flexible-circle-svg -top-2 -left-2 overflow-hidden pointer-events-none rounded-tl-[16px] z-0">
           <FlexibleCircleSvg></FlexibleCircleSvg>
         </div>
       </div>
       <div className="flexible-right-content">
-        <h4 className="subtitle">Per Project</h4>
+        <h4 className="subtitle1 hidden lg:block">Per Project</h4>
+        <h4 className="subtitle2 block lg:hidden">Digital Design</h4>
         <h2 className="dollar">$4,999</h2>
         <p className="flexible-right-p">Delivery time: 4-6 weeks</p>
         <ul className="new-project-list">
