@@ -729,6 +729,7 @@
   justify-content: center;
   gap: 40px;
   align-self: stretch;
+  margin: auto;
 }
 .faq-container .faq-content h2 {
   color: #2e353b;
@@ -736,6 +737,7 @@
   font-weight: 500;
   line-height: 60px;
   letter-spacing: -1.8px;
+  width: 400px;
 }
 .accordian-container {
   display: flex;
