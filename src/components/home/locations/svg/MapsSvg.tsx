@@ -1,8 +1,8 @@
 const MapsSvg = () => {
   return (
     <svg
-      width={838}
-      height={546}
+      // width={838}
+      // height={546}
       viewBox="0 0 838 546"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

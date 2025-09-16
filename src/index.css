@@ -954,7 +954,6 @@
 .location-container {
   margin-top: 8px;
   border-radius: 12px;
-  border-radius: 16px;
   padding: 8px;
   background: #f2f2f7;
 }
@@ -963,7 +962,7 @@
   border-radius: 12px;
 }
 .location-container .title-content {
-  padding-top: 55px;
+  padding: 55px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1002,12 +1001,91 @@
   padding: 22px 0 55px 0;
 }
 .map-container .map {
+  width: 838px;
+  height: 546px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: auto;
 }
+
+/* location section @media query */
+@media (min-width: 320px) {
+  .location-container .title-content {
+    padding: 55px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location-container .title-content .title {
+    padding-top: 12px;
+    color: #2e353b;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+  }
+  .map-container {
+    padding: 22px 15px 55px 15px;
+  }
+  .map-container .map {
+    width: 328px;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .location-container .title-content {
+    padding: 55px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1280px) {
+  .location-container .title-content {
+    padding: 55px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location-container .title-content .title {
+    padding-top: 12px;
+    color: #2e353b;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+  }
+  .map-container {
+    padding: 22px 0 55px 0;
+  }
+  .map-container .map {
+    width: 838px;
+    height: 546px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .location-container .title-content {
+    padding: 55px 0 55px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* flexible plans section css start */
 .flexible-container {
   margin-top: 8px;
