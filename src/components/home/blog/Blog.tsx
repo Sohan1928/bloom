@@ -10,7 +10,7 @@ const Blog = () => {
         <h2>The Blog</h2>
         <p>Curated by our team</p>
       </div>
-      <div className="cart-section grid grid-cols-2 gap-2">
+      <div className="cart-section grid grid-cols-1 lg:grid-cols-2 gap-2 align-center justify-center">
         <div className="fisrt-cart">
           <img src={blogImg1} alt="blogImg1" />
           <div className="first-cart-bottom">
