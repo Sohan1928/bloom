@@ -2,6 +2,7 @@ import Banner from "./components/home/banner/Banner";
 import Blog from "./components/home/blog/Blog";
 import Faq from "./components/home/faq/Faq";
 import FlexiblePlans from "./components/home/flexiblePlans/FlexiblePlans";
+import Footer from "./components/home/footer/Footer";
 import Location from "./components/home/locations/Location";
 import Navbar from "./components/home/navbar/Navbar";
 import SelectedWorks from "./components/home/selectedWorks/SelectedWorks";
@@ -26,6 +27,7 @@ const App = () => {
       <FlexiblePlans></FlexiblePlans>
       <Blog></Blog>
       <Faq></Faq>
+      <Footer></Footer>
     </section>
   );
 };
