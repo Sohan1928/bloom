@@ -2,8 +2,29 @@ import ToggleSvg from "./svg/ToggleSvg";
 import { MdOutlineCheckCircle } from "react-icons/md";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import FlexibleCircleSvg from "./svg/FlexibleCircleSvg";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const FlexiblePlans = () => {
+  useGSAP(() => {
+    gsap.from(".flexible-container", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".flexible-container",
+        start: "top 80%",
+        end: "top 40%",
+        scrub: 1.6,
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
+
   return (
     <section className="flexible-container">
       <div className="flexible-left-content relative">

@@ -1,6 +1,26 @@
+import { useGSAP } from "@gsap/react";
 import Maps from "./Maps";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Location = () => {
+  useGSAP(() => {
+    gsap.from(".location-container", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".location-container",
+        start: "top 80%",
+        end: "top 40%",
+        scrub: 1.6,
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
   return (
     <section className="location-container">
       <div className="location-main-content">

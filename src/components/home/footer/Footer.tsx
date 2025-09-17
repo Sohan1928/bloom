@@ -1,9 +1,29 @@
+import { useGSAP } from "@gsap/react";
 import FooterBgSvg from "./svg/FooterBgSvg";
 import FooterIconSvg from "./svg/FooterIconSvg";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { MdOutlineCopyright } from "react-icons/md";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
+  useGSAP(() => {
+    gsap.from(".footer-container", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".footer-container",
+        start: "top 80%",
+        end: "top 40%",
+        scrub: 1.6,
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
   return (
     <section className="footer-container">
       <div className="footer-top">
