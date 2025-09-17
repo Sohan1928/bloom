@@ -1,4 +1,26 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const Services = () => {
+  useGSAP(() => {
+    gsap.from(".services-container", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".services-container",
+        start: "top 90%",
+        end: "top 50%",
+        scrub: 1.6,
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
+
   return (
     <section className="services-container">
       <div className="title-content">

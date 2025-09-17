@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 /* google fonts */
-#font-inter {
+.font-inter {
   font-family: "Inter", sans-serif;
 }
 #font-antonio {
@@ -259,7 +259,7 @@
   overflow-x: hidden;
 }
 .where-bloom-container .where-bloom-content h2 {
-  color: #cfd1da;
+  color: #cfd1da !important;
   text-align: left;
   align-items: start;
   font-size: 60px;
@@ -374,7 +374,7 @@
   align-self: stretch;
 }
 .selected-works-content {
-  padding: 8px;
+  padding: 6px;
   width: 100%;
 }
 /* .selected-works-content .selected-works {
@@ -491,19 +491,19 @@
     transition: all linear 0.3s;
     flex: 1 0 0;
     aspect-ratio: 358/404.91;
-    margin: 0;
+    margin: 8;
     width: 100%;
   }
   .selected-works-content .bliss1 {
     background: #fff;
-    height: 450.91px;
+    height: 360.91px;
   }
   .selected-works-content .bliss img {
     flex: 1 0 0;
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    height: 392.5px;
+    height: 302.5px;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
@@ -854,6 +854,18 @@
   font-weight: 500;
   line-height: 36px;
   letter-spacing: -0.32px;
+}
+.working-bloom-container
+  .working-bloom-content
+  .text-content
+  h3
+  .text-animation {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  width: inherit;
 }
 .working-bloom-container .working-bloom-content .text-content span {
   color: #cfd1da;
@@ -1732,6 +1744,9 @@
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 0;
+  mix-blend-mode: normal;
+  opacity: 1;
+  filter: none;
 }
 .footer-container .footer-top .footer-icon {
   width: 56px;
@@ -1879,6 +1894,9 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 0;
+    mix-blend-mode: multiply;
+    opacity: 0.85;
+    filter: blur(40px);
   }
 }
 @media (min-width: 1280px) {
@@ -1925,5 +1943,8 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 0;
+    mix-blend-mode: normal;
+    opacity: 1;
+    filter: none;
   }
 }
