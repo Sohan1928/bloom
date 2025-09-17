@@ -6,18 +6,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 const WorkingWithBloom = () => {
   useGSAP(() => {
-    gsap.from(".working-bloom-container", {
-      y: 100,
-      opacity: 0,
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: ".working-bloom-container",
-        start: "top 90%",
-        end: "top 50%",
-        scrub: 1.6,
-        toggleActions: "play none none none",
-      },
+    const mm = gsap.matchMedia();
+    mm.add("(min-width:1280px", () => {
+      gsap.from(".working-bloom-container", {
+        y: 100,
+        opacity: 0,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".working-bloom-container",
+          start: "top 90%",
+          end: "top 50%",
+          scrub: 1.6,
+          toggleActions: "play none none none",
+        },
+      });
     });
   }, []);
   useGSAP(() => {

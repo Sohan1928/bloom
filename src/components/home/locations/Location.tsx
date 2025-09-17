@@ -7,18 +7,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Location = () => {
   useGSAP(() => {
-    gsap.from(".location-container", {
-      y: 100,
-      opacity: 0,
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: ".location-container",
-        start: "top 80%",
-        end: "top 40%",
-        scrub: 1.6,
-        toggleActions: "play none none none",
-      },
+    const mm = gsap.matchMedia();
+    mm.add("(min-width:1280px", () => {
+      gsap.from(".location-container", {
+        y: 100,
+        opacity: 0,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".location-container",
+          start: "top 80%",
+          end: "top 40%",
+          scrub: 1.6,
+          toggleActions: "play none none none",
+        },
+      });
     });
   }, []);
   return (
