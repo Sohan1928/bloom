@@ -149,7 +149,7 @@ const SelectedWorks = () => {
     <section className="selected-works-container overflow-x-hidden">
       <div
         ref={containerRef}
-        className="selected-works-content grid lg:grid-cols-2 gap-2 overflow-hidden"
+        className="selected-works-content grid lg:grid-cols-2 gap-2 align-center justify-center overflow-hidden"
       >
         <div className="bliss selected-works">
           <h3>Selected Works</h3>
